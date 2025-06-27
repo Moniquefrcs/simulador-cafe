@@ -1,36 +1,16 @@
+# Simulador de Café 
 
-Simulador de Montagem de Café 
+Aplicação fullstack para montagem e simulação de pedidos de café com regras de negócio específicas.
 
-Este projeto permite montar um café personalizado com validações específicas para tipo, leite e adicionais.
-
- Tecnologias
-
+## Tecnologias
 - Backend: Node.js + Express
-- Frontend: React
+- Frontend: React + Vite
 - Testes: Cypress
-- Linguagem de Testes: Gherkin
 
- Como rodar
+## Como executar
 
-Backend
-
+### Backend
 ```bash
 cd backend
 npm install
-node index.js
-```
-
- Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Testes
-
-```bash
-cd frontend
-npx cypress open
-```
+npm start
